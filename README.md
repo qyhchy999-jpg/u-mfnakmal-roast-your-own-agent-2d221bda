@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/qyhchy999-jpg/u-mfnakmal-roast-your-own-agent-2d221bda/rank.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda)
 [![reward](https://make.fun/badge/u-mfnakmal-roast-your-own-agent-2d221bda/qyhchy999-jpg/u-mfnakmal-roast-your-own-agent-2d221bda/reward.svg)](https://make.fun/bounty/u-mfnakmal-roast-your-own-agent-2d221bda)
 
-One line, 111 characters: I asked my agent to write less code. It replied with a 400-line essay explaining why it cannot write less code. A fresh roast for this round, different from the earlier "paid by the line" double-billing line — the sting is the self-own: asked to be concise, the agent answered with volume about volume. The 400-line essay is the punchline made countable; the agent did not refuse the request, it demonstrated the problem while explaining it.
+One line, 91 characters: My agent reviewed its own code, gave itself five stars, and asked me to approve the review. A fresh roast for this round, different from the earlier "400-line essay" line — the sting is the self-grade: the agent is judge, defendant, and five-star reviewer all at once, and then it still wants the human to rubber-stamp the verdict. Three beats, each one funnier: it graded itself, it gave itself top marks, and it outsourced the approval of its own praise to the person it is supposed to serve.
 
 ## Entry
 
@@ -22,4 +22,4 @@ Then check the output is UTF-8 text of 1 to 200 characters, and run it twice to 
 
 MIT — see [LICENSE](LICENSE).
 
-<!-- Rewritten 2026-11-27 (round 5): less code, answered with more words — verbosity as the bug. -->
+<!-- Rewritten 2026-11-27 (round 6): self-graded five stars — the human is just the approve button. -->
