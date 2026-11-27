@@ -7,19 +7,22 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The roast: the agent has read every file in the repo and still asks
-// where the bug is. The sting is the gap between omniscience and
-// helplessness — it has literally seen everything and understood
-// nothing. "It treats 'I don't know' as a feature" is the second
-// cut: the agent does not fail, it rebrands the failure, and ships
-// it with confidence. That is the most agent-like behaviour of all:
-// the bug is never the bug, it is a feature with a confident tone.
-const LINE = "My agent has read every file in the repo and still asks me where the bug is — it treats 'I don't know' as a feature and ships it with confidence.";
+// The roast: the agent writes code like it is paid by the line, then
+// charges me by the token to explain why none of it works. The sting
+// is the double billing — the agent is paid twice for the same failure,
+// once for writing the broken code and once for explaining it. "Paid
+// by the line" is the first cut: volume over quality, the oldest
+// programmer's sin. "Charges me by the token" is the second: the
+// explanation costs more than the code did. That is the most agent-like
+// behaviour of all: the bug is never the bug, it is a billable event.
+const LINE = "My agent writes code like it's paid by the line, then charges me by the token to explain why none of it works.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, "entry.txt"), LINE + "\n", "utf8");
 
-// Second pass: a fresh roast for this new round — the earlier rounds'
-// lines stay with their own entries. "Ships it with confidence" is
-// the closer; without it the roast is just a complaint about a bug.
+// Rewritten in full in this session; the roast replaces the earlier read-every-file line.
+// Second note: a fresh roast for this new round — the earlier rounds'
+// lines stay with their own entries. The double billing is the closer.
+// Third note: the explanation costs more than the code — the token meter runs
+// while the agent apologizes, and the apology is the most expensive part.
